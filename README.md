@@ -14,7 +14,7 @@
 ### Let's create a shopping list
 - `Syntax [] - name_of_list = ["first_item","second_item"]`
 
-```
+```Python
 shopping_list = ["apples", "eggs", "dark chocolate", "tea", "bread"]
                #    0        1            2            3       4
 print(shopping_list)
@@ -23,22 +23,22 @@ print(type(shopping_list))
 ```
 
 How can I access eggs using the same concept that we learned yesterday using INDEXING?
-```
+```Python
 print(shopping_list[1])  #  will display eggs
 print(shopping_list[-1])  #  will display bread as it's the last item
 ```
 How can I replace an item in the list?
-```
+```Python
 shopping_list[0] = "mangoes"
 print(shopping_list)
 ```
 How can I add an item to the shopping list?
-```
+```Python
 shopping_list.append("tuna")
 print(shopping_list)
 ```
 How can I remove an item from the shopping list?
-```
+```Python
 shopping_list.remove("tea")
 print(shopping_list)
 #  Or alternatively
@@ -46,14 +46,14 @@ shopping_list.pop(1)  #  To remove the index in the list
 print(shopping_list)
 ```
 We can have multiple data types in the same list
-```
+```Python
 mix_list = [1, 2.3, "four"]
         #  int, float, string
 print(type(mix_list))
 ```
 ##  What are Tuples and what is the difference between lists and Tuples
 - `Syntax () - name_of_tuple = ("", "", "")`
-```
+```Python
 essentials = ("paracetamol", "milk", "butter")
 print(essentials)
 print(type(essentials))

@@ -59,4 +59,5 @@ print(essentials)
 print(type(essentials))
 ```
 - `essentials.pop(1)`    results in an AttributeError
+
 That is because lists are **MUTABLE** and Tuples are **IMMUTABLE**

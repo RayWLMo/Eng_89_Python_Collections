@@ -1,6 +1,6 @@
 -How to create a new project in PyCharm `click on file` then `enter name_of_file` then `enter`
 
-# Python Data Colelctions
+# Python Data Collections
 - Lists
 - Tuples
 - Dict
@@ -104,6 +104,7 @@ print(student_1["completed_lessons_names"][2])
 ### Could we apply CRUD on a dict?
 
 - Changing data
+   - If the key entered is not in the dictionary, then a new key will be added with the corresponding value
 ```Python
 student_1["completed_lessons"] = 3
 print(student_1["completed_lessons"])

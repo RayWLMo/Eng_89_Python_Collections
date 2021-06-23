@@ -103,7 +103,7 @@ print(student_1["completed_lessons_names"][2])
 ```
 ### Could we apply CRUD on a dict?
 
-- Changing data
+- Changing or adding data
    - If the key entered is not in the dictionary, then a new key will be added with the corresponding value
 ```Python
 student_1["completed_lessons"] = 3
